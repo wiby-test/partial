@@ -1,0 +1,14 @@
+{
+  "name": "@wiby-test/partial",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A dependent of `wiby` which passes some of the checks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiby-test/partial.git"
+  },
+  "license": "MIT"
+}
