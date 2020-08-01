@@ -1,0 +1,4 @@
+language: node_js
+env:
+- WIBY_TEST_PASS=true
+- WIBY_TEST_PASS=false
