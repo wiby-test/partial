@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A dependent of `wiby` which passes some of the checks",
   "scripts": {
-    "test": "[[ $WIBY_TEST_PASS == 'true' ]]"
+    "test": "[ x$WIBY_TEST_PASS = xtrue ]"
   },
   "repository": {
     "type": "git",
