@@ -10,5 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/wiby-test/partial.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "wiby": "*"
+  }
 }
