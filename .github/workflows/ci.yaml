@@ -1,0 +1,22 @@
+name: Node.js CI
+
+on:
+  push:
+
+jobs:
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        WIBY_TEST_PASS: [ "true", "false" ]
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+    - run: npm install
+    - run: npm test
+      env:
+        WIBY_TEST_PASS: ${{ matrix.WIBY_TEST_PASS }}
