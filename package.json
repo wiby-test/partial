@@ -13,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "@wiby-test/parent": "*",
-    "wiby": "*"
+    "wiby": "pkgjs/wiby#test-pr"
   }
 }
